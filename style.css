@@ -1,5 +1,5 @@
 #orangeGradient{
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(to right, orange, red)
+  background-image: linear-gradient(to right, rgb(234, 220, 97), red)
 }
