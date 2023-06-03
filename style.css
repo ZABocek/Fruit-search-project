@@ -15,6 +15,7 @@ body{
   justify-content: center;
   align-items: center;
   width: 25%;
+  position: relative;
 }
 .row{
   width: 25%;
