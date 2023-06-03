@@ -25,7 +25,11 @@ body{
   justify-content: center;
 }
 .row input[type="text"]{
-  width: 100%;
+  width: 25%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 20px;
   padding-right: 60px;
   box-sizing: border-box;
