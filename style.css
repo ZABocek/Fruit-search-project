@@ -17,6 +17,7 @@ body{
   width: 100%;
   position: relative;
   margin-top: 40vh;
+  background: transparent;
 }
 .row{
   width: 25%;
@@ -24,6 +25,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  background: transparent;
 }
 input{
   flex: 1;
@@ -31,6 +33,7 @@ input{
   padding-right: 60px;
   box-sizing: border-box;
   background: transparent;
+  background-color: rgb(235, 174, 52);
   border: 2px solid #fff;
   border-radius: 10px;
   font-size: 18px;
