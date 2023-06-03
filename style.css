@@ -25,22 +25,18 @@ body{
   align-items: center;
   justify-content: center;
 }
-.row input[type="text"]{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  position: relative;
+input{
+  flex: 1;
   padding: 20px;
   padding-right: 60px;
   box-sizing: border-box;
   background: transparent;
-  background-color: rgb(235, 174, 52);
   border: 2px solid #fff;
   border-radius: 10px;
   font-size: 18px;
   color: gray;
-  outline: none;
+  outline: 0;
+  border: 0;
 }
 ::-webkit-input-placeholder{
   color: gray;
