@@ -3,21 +3,27 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
-
-.search-container{
-  width: 100vw;
+body{
   height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to right, rgb(234, 220, 97), red)
+}
+.search-box{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to right, rgb(234, 220, 97), red)
+  width: 25%;
 }
-.fruit-box{
+.row{
   width: 25%;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.fruit-box input[type="text"]{
+.row input[type="text"]{
   width: 100%;
   padding: 20px;
   padding-right: 60px;
@@ -39,24 +45,24 @@
   color: gray;
 }
 @media screen and (max-width: 425px){
-  .fruit-box{
+  .row{
     width: 95%;
   }
 }
-.suggestions ul{
+.result-box ul{
   border-top: 1px solid gray;
-  padding: 10px 10px;
+  padding: 15px 10px;
 }
-.suggestions ul li{
+.result-box ul li{
   list-style: none;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 15px 10px;
+  border-radius: 3px;
   cursor: pointer;
 }
-.suggestions ul li:hover{
-  color:rgb(215, 34, 34);
+.result-box ul li:hover{
+  background:rgb(215, 34, 34);
 }
-.suggestions{
+.result-box{
   max-height: 300px;
   overflow-y: scroll;
 }
