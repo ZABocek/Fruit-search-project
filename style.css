@@ -34,7 +34,8 @@ body{
   padding: 20px;
   padding-right: 60px;
   box-sizing: border-box;
-  background: rgb(235, 174, 52);
+  background: transparent;
+  background-color: rgb(235, 174, 52);
   border: 2px solid #fff;
   border-radius: 10px;
   font-size: 18px;
