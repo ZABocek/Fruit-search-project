@@ -16,7 +16,7 @@ body{
   align-items: center;
   width: 100%;
   position: relative;
-  margin-top: 45vh;
+  margin-top: 40vh;
 }
 .row{
   width: 25%;
@@ -26,6 +26,12 @@ body{
   justify-content: center;
 }
 .row input[type="text"]{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  margin-top: 40vh;
   padding: 20px;
   padding-right: 60px;
   box-sizing: border-box;
